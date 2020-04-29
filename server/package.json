@@ -6,6 +6,9 @@
     "type": "git",
     "url": "git+https://github.com/francois-roseberry/online-boulette.git"
   },
+  "engines": {
+    "node": 12
+  },
   "scripts": {
     "start": "node src/server.js"
   },

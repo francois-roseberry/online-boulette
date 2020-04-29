@@ -1,1 +1,7 @@
 node_modules/
+
+# Workspace files
+.idea/
+
+# Log files
+*.log
