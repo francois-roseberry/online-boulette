@@ -7,10 +7,12 @@
     "url": "git+https://github.com/francois-roseberry/online-boulette.git"
   },
   "engines": {
-    "node": 12
+    "node": "12"
+,
   },
   "scripts": {
-    "start": "node src/server.js"
+    "start": "node src/server.js",
+    "test:acceptance": "mocha \"test/acceptance\""
   },
   "author": "froseberry",
   "license": "WTFPL",

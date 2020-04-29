@@ -28,3 +28,15 @@ after three rounds, scores are shown: array of player names and scores
 and a button to start again with the same players
 
 if one player quits the game before the end, game is cancelled and everyone is kicked. Simple
+
+## Server
+
+It runs on nodejs. To use the right version, NVM is used.
+
+To run acceptance tests, start the server first:
+
+`npm start`
+
+Then
+
+`npm run test:acceptance`
