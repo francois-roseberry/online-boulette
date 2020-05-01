@@ -11,10 +11,10 @@ const PORT = 3000;
 
 program
 	.version('0.1')
-	//.option('-w, --webclient <directory>', 'The directory served')
+	.option('-w, --webclient <directory>', 'The directory served')
   .parse(process.argv);
 
-//app.use(express.static(program.webclient));
+app.use(express.static(program.webclient));
 
 const onConnect = (game) => (socket) => {
   socket.on('name', onPlayerName(game, socket));
